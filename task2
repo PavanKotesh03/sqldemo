@@ -1,0 +1,4 @@
+2. Add Foreign Key Constraint
+ALTER TABLE EMPLOYEES
+ADD CONSTRAINT fk_dept
+FOREIGN KEY (dept_id) REFERENCES DEPARTMENTS(dept_id);
