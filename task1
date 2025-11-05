@@ -1,0 +1,12 @@
+1.Create Table Scripts with Primary Keys
+
+CREATE TABLE DEPARTMENTS (
+    dept_id INT PRIMARY KEY,
+    dept_name VARCHAR(100)
+);
+
+CREATE TABLE EMPLOYEES (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    dept_id INT
+);
