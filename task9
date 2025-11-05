@@ -1,0 +1,5 @@
+9. LEFT JOIN Query
+SELECT e.emp_id, e.name, d.dept_name
+FROM EMPLOYEES e
+LEFT JOIN DEPARTMENTS d
+ON e.dept_id = d.dept_id;
