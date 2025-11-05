@@ -1,0 +1,2 @@
+4. Add Index to any Column
+CREATE INDEX idx_emp_name ON EMPLOYEES(name);
