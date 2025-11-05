@@ -1,0 +1,4 @@
+3.Add UNIQUE Constraint
+
+ALTER TABLE DEPARTMENTS
+ADD CONSTRAINT unique_dept_name UNIQUE (dept_name);
